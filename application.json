@@ -1,6 +1,18 @@
 {
   "pages": [
     {
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Directions",
+      "isDefault": false
+    },
+    {
+      "id": "Calendar Mobile",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
       "isDefault": true
     }
@@ -9,8 +21,18 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#ECECEC",
-  "icon": "arrow-up",
-  "unpublishedCustomJSLibs": [],
+  "icon": "pizza",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "jspdf_https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
