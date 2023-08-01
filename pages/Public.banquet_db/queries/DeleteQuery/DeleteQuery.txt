@@ -1,0 +1,2 @@
+DELETE FROM public."banquet_db"
+  WHERE "banquet_number" = {{data_table.triggeredRow.banquet_number}};

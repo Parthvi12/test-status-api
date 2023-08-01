@@ -1,0 +1,5 @@
+UPDATE public."banquet_db" SET
+		"booked_by" = '{{update_form.fieldState.booked_by.isVisible ? update_form.formData.booked_by : update_form.sourceData.booked_by}}',
+		"start_date" = '{{update_form.fieldState.start_date.isVisible ? update_form.formData.start_date : update_form.sourceData.start_date}}',
+    "end_date" = '{{update_form.fieldState.end_date.isVisible ? update_form.formData.end_date : update_form.sourceData.end_date}}'
+WHERE "banquet_number" = {{data_table.selectedRow.banquet_number}};
